@@ -1,0 +1,18 @@
+.page-header {
+  text-align: center; }
+.page-header .hero-unit {
+  background-color: transparent; }
+
+.row {
+  margin: 10px auto;
+  width: 720px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px -1px #5c8ae6; }
+.row .span3 {
+  text-align: center; }
+.row .span3 .circle {
+  margin: 20px auto;
+  width: 120px;
+  height: 120px;
+  background: #5888cd;
+  border-radius: 50%; }
