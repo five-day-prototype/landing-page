@@ -8,24 +8,27 @@
     .page-header
       .container
         .hero-unit
-          %h1 Five Day Prototype
-          %h3 We get the ideas out of your head <br/> and into the world.
+          %img.logo{ src: 'images/logo.png' }
+          %h2 We get the ideas out of your head <br/> and into the world.
 
     .container
       .row.summary
-        .span3
+        .third
           .circle
             %img{ src: 'images/icon.bulb.png' }
           %h4 Your idea...
           %p
             You have an idea. Something that makes money or makes the world a better place. (Ideally both.)
-        .span3
+        %img.arrow1{ src: 'images/bg.rarr.png' }
+        .third
           %img{ src: 'images/calendar.png' }
-        .span3
+        %img.arrow2{ src: 'images/bg.rarr.png' }
+        .third
           .circle
             %img{ src: 'images/icon.prototype.png' }
           %h4 ...prototyped.
           %p Your idea is in the world. It may be a wireframe, a working website, a landing page, paying customers, or something else.
+        %img.line-down{ src: 'images/bg.line_down.png' }
 
       .row.why
         %p
@@ -34,7 +37,7 @@
           %em should I keep going?
 
       .row.examples
-        .span3
+        .span3.offset1
           %h4 We do things like:
           %ul
             %li wireframes
@@ -46,11 +49,11 @@
         .span3
           %h4 To help you:
           %ul
-            %li raise money
             %li understand your customers
             %li test markets
             %li do other things
             %li something else
+            %li prepare an investor pitch
 
       .row.contact-us
         %h3.bold 5 days. $10k.
