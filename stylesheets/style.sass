@@ -1,15 +1,25 @@
+$darkBlue: #5888CD
+$lightBlue: #DEE7F5
+
 .page-header
   text-align: center
 
   .hero-unit
     background-color: transparent
+    padding: 30px
 
 .row
-  margin: 10px auto
+  margin: 1px auto
   width: 720px
   padding: 30px
-  box-shadow: 0px 0px 10px -1px #5C8AE6
+  border: 2px solid $lightBlue
+  box-shadow: inset 0 0 1px 1px $lightBlue
 
+h4
+  text-align: center
+  margin-bottom: 20px
+
+.summary
   .span3
     text-align: center
 
@@ -17,5 +27,21 @@
       margin: 20px auto
       width: 120px
       height: 120px
-      background: #5888CD
+      background: $darkBlue
       border-radius: 50%
+
+.examples
+  padding-top: 50px
+
+  .span3:first-child
+    margin-left: 80px
+
+  .span3
+    background-color: $lightBlue
+    padding: 20px 10px 20px 20px
+    margin-left: 40px
+
+.contact-us
+  button
+    text-align: center
+    margin-top: 20px
