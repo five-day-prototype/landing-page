@@ -72,6 +72,10 @@ h3, h4 {
   left: 360px;
   top: 154px; }
 
+.arrows-down {
+  position: absolute;
+  left: 200px; }
+
 .summary .third {
   float: left;
   width: 30%;
@@ -97,6 +101,8 @@ h3, h4 {
 .examples .span3 {
   padding: 20px 10px 20px 20px;
   background-color: #dee7f5; }
+.examples .offset1 {
+  margin-left: 80px; }
 
 .contact-us h3 {
   text-align: center; }
